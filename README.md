@@ -168,3 +168,33 @@ Steps to Run the model
 
 In the terminal, you type "npm run dev", after you go into the front-end directory
 You create another terminal and run "python main.py" after you go into the root directory
+
+**What We're Building**
+
+MedPal AI is envisioned as a comprehensive telehealth platform with features like:
+Real-time clinical decision support for healthcare professionals.
+Speech-to-text technology for capturing consultation details.
+AI-powered analysis of consultations to:
+ - Suggest questions for the healthcare professional.
+ - Assist in diagnosing patient problems.
+ - Recommend potential lab tests.
+ - Recommend possible medications (after confirmed diagnosis).
+ - Report generation with key takeaways from the consultation.
+
+**Current Focus Areas**
+
+We are currently focusing on open-sourcing the following components:
+
+Speech-to-Text Module: We're exploring open-source speech-to-text libraries and tools to ensure accurate capturing of consultations.
+AI Assistant for Diagnosis Support: We're investigating open-source large language models (LLMs) and fine-tuning them for the healthcare domain, adhering to data privacy regulations.
+Clinical Question Prompt Library: We're building a collection of open-source question prompts to guide healthcare professionals during consultations.
+
+**How You Can Get Involved**
+
+We welcome contributions from developers, data scientists, healthcare professionals, and anyone passionate about improving healthcare access. Here's how you can participate:
+
+Contribute code: Fork our repositories, make improvements, and submit pull requests.
+Join the discussion: Engage in our online forum (https://discord.gg/eVKVcneU) to discuss ideas, ask questions, and collaborate.
+
+Help us document: Improve our documentation to make it easier for others to contribute.
+Spread the word: Share our project with others who might be interested in getting involved.
