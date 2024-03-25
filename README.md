@@ -80,43 +80,46 @@ Openfire is an instant messaging (IM) and group chat server that uses XMPP serve
 Extensible Messaging and Presence Protocol (XMPP​) is a communications protocol for message-oriented middleware based on XML.
 
 4. **Database**:
+
 The database is MySql.
 Since we are using Hibernate, it does’t matter what database is used, however currently MySql is being deployed.
 
 5. **Web Server**:
+
 Apache Tomcat 7 Web server
 
 6. **Payment Gateway**:
+
 For national and international transaction working with Citrus Pay ​payment gateway API’s
 
 7. **Hosting**:
+
 Healthouts was hosted on AWS(Amazon Web Services) public cloud computing service.
 Healthouts use AWS services like EC2, RDS, Email delivery, Route 53, S3 storage.
 EC2: ​ Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity, Virtual computers to host the app server.
 
 Some of the features of EC2 are:
 
-Virtual computing environments, known as instances.
+  - Virtual computing environments, known as instances.
+  - Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types
+  - RDS: ​ Amazon Relational Database Service (or Amazon RDS​) is a distributed relational database service provide different type of relational database instances from cloud.
+  - Route 53:​ This service provides scalable and highly available Domain Name System (DNS).
+  - S3 Storage: ​S3​(Simple Storage​Service) is an online file storage ​web service, provides storage ​through web services interfaces
+  - SES : Simple email Service, ​is the email service used internally for all triggers to communications.
 
-Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types
+8. Version control system :
 
-RDS: ​ Amazon Relational Database Service (or Amazon RDS​) is a distributed relational database service provide different type of relational database instances from cloud.
-
-Route 53:​ This service provides scalable and highly available Domain Name System (DNS).
-
-S3 Storage: ​S3​(Simple Storage​Service) is an online file storage ​web service, provides storage ​through web services interfaces
-
-SES : Simple email Service, ​is the email service used internally for all triggers to communications.
-
-8.Version control system :
 GitHub ​ is used as an online repository to manage Healthouts application files and versioning
 Git is a local repository to manage the code and communicate with remote repository.
 
 9. Application Scalability:
+
 Healthouts at present is built for scalability using the Amazon cloud computing services, however depending on the requirement for estimated growth figures, system will be scaled in hours after evaluating the cost requirements.
+
 The only current limitation for scalability are the Openfire concurrent chat connections.
 
-10.Social networking API’s:
+10. Social networking API’s:
+
 Working with Facebook, Twitter, Google+ API’s
 ​These API’s allows application to use the social connections and profile information to make application more involving and publish activities on Facebook, Twitter, Google+.
 
@@ -136,7 +139,7 @@ We would like to build a product like this - https://www.youtube.com/watch?v=mbi
 
 PaCo Doc web UI has four web frames:
 
-1.Patient Diagnosis - PaCo Doc acts as a clinical decision support system for the Doctor and helps with coming up with differential diagnoses that are derived from the live doctor/patient interaction. We listen in on the doctor/patient conversation and do inference at the same time in real-time.
+1. Patient Diagnosis - PaCo Doc acts as a clinical decision support system for the Doctor and helps with coming up with differential diagnoses that are derived from the live doctor/patient interaction. We listen in on the doctor/patient conversation and do inference at the same time in real-time.
 2.Suggested Questions - It suggests and helps the Doctor to ask any questions they have missed to ask the patient.
 3. Doctor consultation notes - Includes the summary of the Diagnosis, medications prescribed and lab tests ordered.
 4. Your conversation - Displays the raw conversation in real-time and supports multiple languages. Real-time audio inference to identify whether it was a doctor or a patient speaking, we perform speech to text in real-time.
