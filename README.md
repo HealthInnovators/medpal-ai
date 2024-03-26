@@ -2,6 +2,14 @@
 
 Welcome to the Medpal Pro AI! 
 
+- 👋 Hi, I’m @HealthInnovators
+- 👀 I’m interested in Healthcare, Sustainability and Artificial Intelligence
+- 🌱 I’m currently learning to create a RAG (Responsive, Accessible, and Guided) and LLM (Language, Learning, and Memory) based health chatbot with Generative AI, IoT integration, and Electronic Medical Record integration. 
+- 💞️ I’m looking to collaborate on text, audio, vision, Data, video generation using generatie AI, RAG (Responsive, Accessible, and Guided) based AI chatbots and Supervised Machine Learning solutions for the health and sustainability industry. 
+- 📫 How to reach me: You can reach me at kal@healthiai.org, Connect with me on LinkedIn (https://www.linkedin.com/in/kalyankalwa/), Connect with us on Discord (https://discord.gg/eVKVcneU), Attend our event (https://www.meetup.com/healthi/).
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I like playing Call of Duty mobile, listening and dancing to Hip-Hop music and playing sports including basketball and soccer. 
+
 Checkout MedPal Wiki page at https://github.com/HealthInnovators/medpal-pro/wiki
 
 Almost 10 years ago, we built a Telehealth Application for patient engagement called Healthouts, we now want to make Healthouts AI enabled.
